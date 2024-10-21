@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+    
+    viewport-height:100%;
+}
+h1{
+    height: 5rem;
+    background-color: rgb(67, 60, 60);
+    color: white;
+    line-height: 5rem;
+}
+img:hover{
+    border: 5px solid yellow;
+    cursor: pointer;
+}
+.choice{
+    height: 11rem;
+    background-color:rgb(39, 185, 39);
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+    margin-top: 1rem;
+    background-size:cover;
+    object-fit: cover;
+    height: 10rem;
+}
+.image{
+    margin-left: 5rem;
+}
+.pointer{
+ height: 4rem;
+ font-size: 3rem;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ background-color:rgb(160, 157, 157);
+ color: white;
+ line-height: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: aquamarine ;
+
+}
+.same{
+    font-size: 3rem;
+}
+.score{
+    margin-top: 1rem;
+
+}
+#content{
+    font-size: 3rem;
+    background-color: black;
+    height: 15rem;
+    color: white;
+display: block;
+justify-content: center;
+align-items: center;
+}
+#decision{
+    border:2px solid black;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+#button{
+    background-color: black;
+    height: 4rem;
+    border: solid 2px white;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 20%;
+    background-color: rgb(101, 101, 172);
+    color: greenyellow;
+
+}
+#button:hover{
+    cursor: pointer;
+}
+
+#user1{
+    font-size: 3rem;
+    padding-top: 4.3rem;
+    color:tomato
+
+}
+#comp1{
+    font-size: 3rem;
+    padding-top: 4.3rem;
+    color: rgb(74, 74, 181);
+}
